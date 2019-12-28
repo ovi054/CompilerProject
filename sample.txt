@@ -1,0 +1,54 @@
+int main()
+{
+    int var_a=8;
+    //abcd
+    
+    int var_i = 10;
+    int var_j = 10, var_k =55;
+    int var_b;
+    /*sdffg
+    hjjkk
+    jjjj
+    */
+    print("var");
+    if(var_i<=var_j){
+        if(var_i<10){
+            print("Something");
+        }
+        else if(var_j==10){
+            print("Here is something");
+        }
+        else{
+            if(var_i<8){
+                print("Here is something");
+            }
+            else if(var_j==0){
+                print("Here is something");
+            }
+            else if(var_i==10){
+                print("Here is something");
+            }
+        }
+    }
+    //a =0;
+    else if(var_j>var_i){
+        print("Here is something");
+    }
+    else{
+        print("Here is something too");
+    }
+    for(var_a=0;var_a<9;var_a=var_a+1)
+    {
+        //for loop;
+    }
+    while(1)
+    {
+       //while loop;
+    }
+}
+
+int def_func(int var_z)
+{
+10+5;
+    print("Function");
+}

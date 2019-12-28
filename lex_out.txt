@@ -1,0 +1,163 @@
+lex 7 --> int
+lex 2 --> main
+lex 10 --> (
+lex 11 --> )
+lex 12 --> {
+lex 7 --> int
+lex 6 --> var_a
+lex 18 --> =
+lex 1:: 8
+Single line comment found //abcd
+lex 7 --> int
+lex 6 --> var_i
+lex 18 --> =
+lex 1:: 10
+lex 7 --> int
+lex 6 --> var_j
+lex 18 --> =
+lex 1:: 10
+lex 6 --> var_k
+lex 18 --> =
+lex 1:: 55
+lex 7 --> int
+lex 6 --> var_b
+Multi line comment found /*sdffg
+    hjjkk
+    jjjj
+    */
+ Comment ended
+lex 4 --> print
+lex 10 --> (
+lex 30 --> "var"
+lex 11 --> )
+lex 27 --> if
+lex 10 --> (
+lex 6 --> var_i
+lex 14 --> <=
+lex 6 --> var_j
+lex 11 --> )
+lex 12 --> {
+lex 27 --> if
+lex 10 --> (
+lex 6 --> var_i
+lex 23 --> <
+lex 1:: 10
+lex 11 --> )
+lex 12 --> {
+lex 4 --> print
+lex 10 --> (
+lex 30 --> "Something"
+lex 11 --> )
+lex 13 --> }
+lex 25 --> else if
+lex 10 --> (
+lex 6 --> var_j
+lex 16 --> ==
+lex 1:: 10
+lex 11 --> )
+lex 12 --> {
+lex 4 --> print
+lex 10 --> (
+lex 30 --> "Here is something"
+lex 11 --> )
+lex 13 --> }
+lex 28 --> else
+lex 12 --> {
+lex 27 --> if
+lex 10 --> (
+lex 6 --> var_i
+lex 23 --> <
+lex 1:: 8
+lex 11 --> )
+lex 12 --> {
+lex 4 --> print
+lex 10 --> (
+lex 30 --> "Here is something"
+lex 11 --> )
+lex 13 --> }
+lex 25 --> else if
+lex 10 --> (
+lex 6 --> var_j
+lex 16 --> ==
+lex 1:: 0
+lex 11 --> )
+lex 12 --> {
+lex 4 --> print
+lex 10 --> (
+lex 30 --> "Here is something"
+lex 11 --> )
+lex 13 --> }
+lex 25 --> else if
+lex 10 --> (
+lex 6 --> var_i
+lex 16 --> ==
+lex 1:: 10
+lex 11 --> )
+lex 12 --> {
+lex 4 --> print
+lex 10 --> (
+lex 30 --> "Here is something"
+lex 11 --> )
+lex 13 --> }
+lex 13 --> }
+lex 13 --> }
+Single line comment found //a =0;
+lex 25 --> else if
+lex 10 --> (
+lex 6 --> var_j
+lex 24 --> >
+lex 6 --> var_i
+lex 11 --> )
+lex 12 --> {
+lex 4 --> print
+lex 10 --> (
+lex 30 --> "Here is something"
+lex 11 --> )
+lex 13 --> }
+lex 28 --> else
+lex 12 --> {
+lex 4 --> print
+lex 10 --> (
+lex 30 --> "Here is something too"
+lex 11 --> )
+lex 13 --> }
+lex 10.1 --> for
+lex 10 --> (
+lex 6 --> var_a
+lex 18 --> =
+lex 1:: 0
+lex 6 --> var_a
+lex 23 --> <
+lex 1:: 9
+lex 6 --> var_a
+lex 18 --> =
+lex 6 --> var_a
+lex 19 --> +
+lex 1:: 1
+lex 11 --> )
+lex 12 --> {
+Single line comment found //for loop;
+lex 13 --> }
+lex 10.2 --> while
+lex 10 --> (
+lex 1:: 1
+lex 11 --> )
+lex 12 --> {
+Single line comment found //while loop;
+lex 13 --> }
+lex 13 --> }
+lex 7 --> int
+lex 5 --> def_func
+lex 10 --> (
+lex 7 --> int
+lex 6 --> var_z
+lex 11 --> )
+lex 12 --> {
+lex 1:: 10
+lex 19 --> +
+lex 1:: 5
+lex 4 --> print
+lex 10 --> (
+lex 30 --> "Function"
+lex 11 --> )
+lex 13 --> }
